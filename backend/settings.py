@@ -61,7 +61,7 @@ CORS_ORIGIN_WHITELIST = (
 "http://127.0.0.1:4200",
 "http://localhost:4200",
 "https://django-dash-baord.web.app",
-"django-rest-production.up.railway.app"
+"https://django-rest-production.up.railway.app"
 )
 
 
