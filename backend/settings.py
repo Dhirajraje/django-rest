@@ -63,7 +63,7 @@ CORS_ORIGIN_WHITELIST = (
 "https://django-dash-baord.web.app",
 "https://django-rest-production.up.railway.app"
 )
-
+CSRF_TRUSTED_ORIGINS=['https://django-rest-production.up.railway.app','http://127.0.0.1','http://localhost']
 
 CORS_ALLOW_CREDENTIALS=True
 
