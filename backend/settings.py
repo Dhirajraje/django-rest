@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ecv#=-%)dxt(1l1^y1es@8%24yayl0i3vci*h(2r7#03_4ew2i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1","localhost","django-dash-baord.web.app" ]
+ALLOWED_HOSTS = ["127.0.0.1","localhost","django-dash-baord.web.app","django-rest-production.up.railway.app" ]
 
 
 
@@ -60,7 +60,8 @@ MIDDLEWARE = [
 CORS_ORIGIN_WHITELIST = (
 "http://127.0.0.1:4200",
 "http://localhost:4200",
-"https://django-dash-baord.web.app"
+"https://django-dash-baord.web.app",
+"django-rest-production.up.railway.app"
 )
 
 
